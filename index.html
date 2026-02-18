@@ -57,6 +57,72 @@
             flex-direction: column;
             row-gap: 20px;
         }
+
+        .uni-comp{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            margin-left: 220px;
+        }
+        .detail{
+            margin: 20px;
+        }
+
+        .sponsors{
+            display: flex;
+            column-gap: 40px;
+        }
+
+        .learners{
+            display: flex;
+            justify-content: center;
+             height: 500px;
+             margin-left: 250px;
+             margin-top: 100px;
+            
+        }
+
+        .learn-left{
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+        }
+        .skills{
+            display: flex;
+            justify-items:start;
+            justify-content: space-around;
+             margin-left: 250px;
+             margin-top: -100px;
+             
+
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            row-gap: 20px;
+            border: 1px solid gray;
+            border-radius: 1rem;
+            padding: 15px;
+        }
+        .card img{
+            height: 300px;
+            width: 300px;
+            border: 1px solid gray;
+            border-radius: 1rem;
+        }
+
+        .skills-right{
+
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+         .skills-left{
+
+            width: 30%;
+            
+        }
     </style>
 
 
@@ -129,9 +195,105 @@
     <main>
 
 
-        <section>
+        <section class="uni-comp">
+            <h1>Learn from 350+ top universities and companies</h1>
+            <div class="sponsors">
 
+                  <img src="images/sponsor.png" alt="">
+                  <img src="images/sponsor.png" alt="">
+                  <img src="images/sponsor.png" alt="">
+                  <img src="images/sponsor.png" alt="">
+                  <img src="images/sponsor.png" alt="">
+                  <img src="images/sponsor.png" alt="">
+
+                 
+            </div>
         </section>
+
+         <section class="uni-comp">
+            <h2>Invest in your career</h2>
+            <div class="sponsors">
+
+                 <div class="detail">
+                     <img src="icons/icon2.png" alt="">
+                     <h4>Explore new skills</h4>
+                     <p>Access 10,000+ courses in AI, business, technology, and more</p>
+                 </div>
+                 <div class="detail">
+                     <img src="icons/icon2.png" alt="">
+                     <h4>Explore new skills</h4>
+                     <p>Access 10,000+ courses in AI, business, technology, and more</p>
+                 </div>
+                 <div class="detail">
+                     <img src="icons/icon2.png" alt="">
+                     <h4>Explore new skills</h4>
+                     <p>Access 10,000+ courses in AI, business, technology, and more</p>
+                 </div>
+                 
+                    
+                 
+            </div>
+        </section>
+
+         <section class="learners">
+
+        <div class="learn-left">
+            
+            <h1 style="font-size:40px; color: rgb(6, 6, 7);">Join the 91% of learners who achieved a positive <br> career outcome, like new job opportunities, increased knowledge, and improved performance at work.¹</h1>
+         
+            <button style="color: rgb(11, 32, 215); width: 200px; height: 50px; border-radius: 1rem;">Start 7-Day Free Trial</button>
+           
+
+        </div>
+
+        <div class="learn-right">
+           
+            <img src="images/happy customer.png" alt="" >
+
+        </div>
+         </section>
+
+
+         <section class="skills">
+
+            <div class="skills-left">
+             <h4>Career skills that work</h4>
+              <button style="color: rgb(11, 32, 215); width: 200px; height: 50px; border-radius: 1rem;">Start 7-Day Free Trial</button>
+            </div>
+
+            <div class="skills-right">
+               
+                <div class="card">
+                    <img src="images/happy customer.png" alt="">
+                    <h3>Python for everybody</h3>
+                    <p>Beginner-Specialization</p>
+                </div>
+
+                 <div class="card">
+                    <img src="images/happy customer.png" alt="">
+                    <h3>Python for everybody</h3>
+                    <p>Beginner-Specialization</p>
+                </div>
+
+                 <div class="card">
+                    <img src="images/happy customer.png" alt="">
+                    <h3>Python for everybody</h3>
+                    <p>Beginner-Specialization</p>
+                </div>
+                 <div class="card">
+                    <img src="images/happy customer.png" alt="">
+                    <h3>Python for everybody</h3>
+                    <p>Beginner-Specialization</p>
+                </div>
+
+                 <div class="card">
+                    <img src="images/happy customer.png" alt="">
+                    <h3>Python for everybody</h3>
+                    <p>Beginner-Specialization</p>
+                </div>
+
+            </div>
+         </section>
 
 
     </main>
